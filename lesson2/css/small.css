@@ -21,11 +21,6 @@ header, footer {
     border: 1px solid #fc7304;
 }
 
-header {
-    /*height: 100px; */
-    /* removing this worked to allow the page elements to nest under each other properly! */
-}
-
 main {
     padding: 25px;
     max-width: 580px;
@@ -98,7 +93,7 @@ hr {
 }
 
 /* week 2 columns */
-#1column, #2column2, #3column, .imageColumn {
+#1column, #2column, #3column, .imageColumn {
     display: inline-block;
     padding-bottom: 10px;
     text-align: center;
