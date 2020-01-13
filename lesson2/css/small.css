@@ -97,6 +97,44 @@ hr {
     margin: 0px;
 }
 
+/* week 2 columns */
+#1column, #2column2, #3column, .imageColumn {
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.imageColumn {
+    border-radius: 10px;
+    background-color: #ffefdd;
+    margin: 0px;
+    border: 1px solid #ffa927;
+
+}
+
+.imageColumn p {
+    display: block;
+    font-size: .75rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ffefdd;
+    
+}
+
+.imageColumn h2 {
+    background-color: #ffefdd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: 3rem;
+}
+
+/**w 2 **/
 footer {
     padding: 5px;
     /*height: 60px;*/   /* removing this worked to allow the page elements to nest under each other properly! */
