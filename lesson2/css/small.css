@@ -11,7 +11,7 @@ body {
 
 header, nav, main, footer {
     margin: 0 auto;     /* if probs change 1 rem to 0 auto; this centers the page*/
-    max-width: 960px;
+    max-width: 900px;
 }
 
 
@@ -26,7 +26,7 @@ main {
     max-width: 960px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 3fr;
+    grid-template-columns: 1fr;
     font-size: 0.8rem;
 }
 
@@ -68,7 +68,7 @@ h2 {
     margin: 0;
     color: #462700
 }
-
+/**
 ul li a:link {
     color: #048ec5;
     text-decoration: none;
@@ -102,7 +102,7 @@ a:hover {
 a:active {
     color: khaki;
 }
-
+*/
 hr {
     background-color: #ffd904;
     height: 2px;
