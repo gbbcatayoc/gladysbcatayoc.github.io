@@ -11,23 +11,24 @@ body {
 
 header, nav, main, footer {
     margin: 0 auto;     /* if probs change 1 rem to 0 auto; this centers the page*/
-    max-width: 900px;
+    max-width: 960px;
 }
 
 
 header, footer {
     background-color: #462700;
     text-align: center;
-    border: 1px solid #fc7304;
+    border: 5px solid #fc7304;
 }
 
 main {
-    padding: 25px;
+    padding: 5px;
     max-width: 960px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
+    background-color: bisque;
 }
 
 main section {
@@ -35,6 +36,7 @@ main section {
     border: 1 px solid #462700;
     padding: 0 1rem;
     background-color: #fdfdfd;
+    text-align: center;
 }
 
 section:nth-child(2) {
