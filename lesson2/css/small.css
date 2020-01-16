@@ -11,7 +11,7 @@ body {
 
 header, nav, main, footer {
     margin: 0 auto;     /* if probs change 1 rem to 0 auto; this centers the page*/
-    max-width: 700px;
+    max-width: 960px;
 }
 
 
@@ -23,13 +23,32 @@ header, footer {
 
 main {
     padding: 25px;
-    max-width: 580px;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr;
+    font-size: 0.8rem;
 }
 
+main section {
+    margin: 0.5rem;
+    border: 1 px solid #462700;
+    padding: 0 1rem;
+    background-color: #fdfdfd;
+}
+
+section:nth-child(2) {
+    display: none;
+    margin: 0.5rem;
+}
+
+.colimage {
+    box-shadow: 0 0 30px #8f6b36;
+}
 img {
     /* maybe change to main img or something*/
     height: auto;
-    border: 1px solid #ff7c11;
+    border: 1px solid #c47d44;
 
 }
 
@@ -85,51 +104,14 @@ a:active {
 }
 
 hr {
-    background-color: #0039a3;
-    height: 1px;
+    background-color: #ffd904;
+    height: 2px;
     border: 0;
     padding: 0px;
-    margin: 0px;
+    margin: 3px;
 }
 
-/* week 2 columns */
-#1column, #2column, #3column, .imageColumn {
-    display: inline-block;
-    padding-bottom: 10px;
-    text-align: center;
-    
-}
 
-.imageColumn {
-    border-radius: 10px;
-    background-color: #ffefdd;
-    margin: 0px;
-    border: 1px solid #ffa927;
-
-}
-
-.imageColumn p {
-    display: block;
-    font-size: .75rem;
-    text-align: center;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: #ffefdd;
-    
-}
-
-.imageColumn h2 {
-    background-color: #ffefdd;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin: 0px;
-    padding: 5px;
-    padding-bottom: 10px;
-    text-align: center;
-    height: 3rem;
-}
-
-/**w 2 **/
 footer {
     padding: 5px;
     /*height: 60px;*/   /* removing this worked to allow the page elements to nest under each other properly! */
