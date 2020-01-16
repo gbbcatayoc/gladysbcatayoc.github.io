@@ -39,7 +39,7 @@ main section {
     text-align: center;
 }
 
-section:nth-child(2) {
+section:nth-child(3) {
     display: none;
     margin: 0.5rem;
 }
