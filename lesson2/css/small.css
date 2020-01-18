@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap");
 
 body {
     margin-top: 10px;
@@ -39,7 +39,7 @@ main section {
     text-align: center;
 }
 
-section:nth-child(3) {
+section:nth-child(2) {
     display: none;
     margin: 0.5rem;
 }
@@ -55,7 +55,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', serif;
+    font-family: 'Zilla Slab', serif;
     color: #fff020;
     margin: 0;
 }
