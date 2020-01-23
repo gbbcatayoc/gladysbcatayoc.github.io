@@ -32,6 +32,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-radius: 10px;
     
 }
 
@@ -53,7 +54,7 @@ header img{
 nav {
     background-color: #ff931854;
     text-align: center;
-    border: 1px solid rgb(255, 253, 230);
+    border-radius: 10px ;
     
     /*  text-align: center; not needed */
     /* box-shadow: 0 2px 15px gray;*/
