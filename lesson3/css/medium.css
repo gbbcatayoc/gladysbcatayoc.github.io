@@ -1,36 +1,67 @@
 /* Tablet Views ******************************/
-@media only screen and (min-width: 32.5em) {
-	main {
-		grid-template-columns: 1fr 1fr;
+@media only screen and (min-width: 37.5em) {
+	header, main, footer {
+		min-width: 37.5rem;
 	}
 
-	section:nth-child(2) {
-		display: block;
+	header {
+		border-radius: 10px 10px 0px 0px;
+	}
+	footer {
+		border-radius: 10px;
 	}
 
-	section:nth-child(3) {
-		grid-column: span 2;
-	}
-
-	main picture {
-		display: block;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
+	nav ul {
+		flex-direction: row;
 	}
 	
-}
-
+	main {
+		flex-direction: row;
+		padding: 25px;
+		/*column-gap: 1.5rem;*/
+	}
+	
+	article:nth-child(2) {
+		display: block;
+	}
+	
+	/*article:nth-child(3){
+		
+	}*/
+	
+	main img{
+		display: block;
+	}
+	
+	h1 {
+		font-size: 2.5rem;
+		padding: 20px;
+	}
+		
+	h2 {
+		font-size: 1.5rem;
+	}
+	
+	h3{
+		font-size: 1rem;
+	}
+	
+	img {
+		margin-left: auto;
+		margin-right: auto
+	}
+	}
 
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
 	main {
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-	section:nth-child(3) {
+	article:nth-child(3) {
 		grid-column: span 1;
 	}
 }

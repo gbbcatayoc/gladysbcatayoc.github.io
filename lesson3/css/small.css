@@ -61,8 +61,7 @@ nav {
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -289,6 +288,8 @@ footer {
 
 footer p{
     margin: 0;
+    font-size: 0cm;
+    color: #fff460;
 }
 
 body footer p:nth-child(1) {
