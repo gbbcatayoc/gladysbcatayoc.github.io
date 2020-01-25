@@ -159,14 +159,6 @@ article {
     padding: 5px;
 }
 
-.columnSiteMap img {
-    display: block;
-    font-size: 1.1rem;
-    text-align: center;
-    border-radius: 10px;
-    padding: 25px;
-}
-
 th, td {
     border: 1px solid black;
     border-radius: 3px;
@@ -180,46 +172,46 @@ th, td {
 }
 
 #sampleHeader {
-    background-color: #3da5d9;
-    color: #2364aa;
+    background-color: #62a1a8;
+    color: #c3dbe7;
     font-size: 1.5rem;
     font-family: "Roboto Slab", sans-serif;
 }
 
 #samplePrimaryNav {
-    background-color:#2364aa;
+    background-color:#1e6167;
     color: #fff;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
 }
 
 #sampleFooterNav {
-    background-color: #3da5d9;
-    color: #000;
+    background-color: #62a1a8;
+    color: #c3dbe7;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 }
 
 #sampleHeading1 {
-    color: #2364aa;
+    color: #832d38;
     font-size: 1.5rem;
     font-family: "Roboto Slab", sans-serif;
 }
 
 #sampleHeading2 {
-    color: #2364aa;
+    color: #832d38;
     font-size: 1.25rem;
     font-family: "Roboto Slab", sans-serif;
 }
 
 #sampleHeading3 {
-    color: #2364aa;
+    color: #832d38;
     font-size: 1rem;
     font-family: "Roboto Slab", sans-serif;
 }
 
 #sampleHeading4 {
-    color: #000;
+    color: #832d38;
     font-size: .75rem;
     font-family: "Roboto Slab", sans-serif;
 }
@@ -242,21 +234,21 @@ h6 {
 
 h1 {
     font-size: 1.5rem;
-    color: #2364aa;
+    color: #832d38;
     text-shadow: 2px 2px 4px #fff;
     /*height: 7vh;*/
 }
 
 h2 {
     font-size: 1.25rem;
-    color: #2364aa;
+    color: #832d38;
     padding: 0 0 10px 0;
     text-align: center;
 }
 
 h3 {
     font-size: 1rem;
-    color: #2364aa;
+    color: #832d38;
 }
 
 ul li a:link {
@@ -287,15 +279,6 @@ footer {
 footer p{
     margin: 0;
 }
-
-body footer p:nth-child(1) {
-    margin-top: 15px;
-}
-
-body footer p:nth-child(2) {
-    margin-bottom: 15px;
-}
-
 
 #currentDate {
     color: #f1f5f7;
