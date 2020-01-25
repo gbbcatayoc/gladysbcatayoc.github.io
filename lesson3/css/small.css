@@ -11,38 +11,37 @@ body {
     font-size: 1.1em;
     font-family: 'Roboto', sans-serif;
     padding: 0;
-    background-color: #ffffff;
-    color: rgb(255, 230, 200);
+    background-color: #f1f5f7;
+    color: #000;
 }
 
 header,
 nav,
 main,
 footer {
-    max-width: 900px;
+    max-width: 767px;
     margin: 0 auto;     /*0 auto; this centers the page*/
 
 }
 
 header,
 footer {
-    background-color: #f1653a;
+    background-color: #62a1a8;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 10px;
-    
+    border: 1px solid #1e6167;
 }
+
 
 header {
     font-family: "Roboto Slab", sans-serif; 
 }
-header h1 {
-    font-size: xx-large;
+header h2 {
     padding: 20px;
-    text-shadow: 0 0 2px #fff;
+    text-shadow: 2px 2px 4px #c3dbe7;
 }
 
 header img{
@@ -52,16 +51,17 @@ header img{
 }
 
 nav {
-    background-color: #ff931854;
+    background-color: #1e6167;
     text-align: center;
-    border-radius: 10px ;
-    
+    border: 1px solid #c3dbe7;
+    border-radius: 0 0 10px 10px;
     /*  text-align: center; not needed */
     /* box-shadow: 0 2px 15px gray;*/
 }
 
 nav ul {
-    list-style-type: none;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -70,7 +70,7 @@ nav ul {
 
 nav ul li {
     flex: 1 1 100%;
-    color: #f3f315;
+    color: #832d37;
     list-style-type: none;
 
 }
@@ -83,11 +83,11 @@ nav ul li a {
     padding: 0.75rem;
     text-decoration: none;
     font-size: 1rem;
-    border-radius: 10ex;
+    border-radius: 10px;
 }
 
 .active {
-    background-color: #ff3d3d;
+    background-color: #3da5d9;
     color: #000;
 }
 
@@ -101,23 +101,22 @@ main {
 }
 
 main h2 { 
-    color: #2364aa;
+    color: #832d38;
 }
 
 article {
     margin: 15px;
-    max-width: 900px;
+    max-width: 650px;
     height: 100%;
-    color: #ff3d3d;
 
 }
 
 .columnImage {
     display: block;
-    background-color: #ffd2d2;
+    background-color: #e8e8e8;
     text-align: center;
     margin: 0px;
-    border: 1px solid #591b02;
+    border: 1px solid #024059;
     border-radius: 10px;
     max-width: 100%;
     min-width: 352px;
@@ -136,7 +135,7 @@ article {
 }
 
 .columnImage h2 {
-   
+    background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin: 0px;
@@ -239,26 +238,25 @@ h5,
 h6 {
     font-family: 'Roboto Slab', serif;
     margin: 0;
-    padding-bottom: 0.8rem;
 }
 
 h1 {
-    font-size: 5rem;
-    color: #fdff79;
+    font-size: 1.5rem;
+    color: #2364aa;
     text-shadow: 2px 2px 4px #fff;
     /*height: 7vh;*/
 }
 
-h2, h3 {
+h2 {
     font-size: 1.25rem;
     color: #2364aa;
     padding: 0 0 10px 0;
     text-align: center;
 }
 
-h5 {
+h3 {
     font-size: 1rem;
-    color: #ffdc17;
+    color: #2364aa;
 }
 
 ul li a:link {
@@ -271,9 +269,9 @@ ul li a:visited {
 }
 
 ul li a:hover {
-    background-color:  #ff746a;
-    color: #fff460;
-    border-radius: 10ex;
+    background-color:  #3da5;
+    color: #000;
+    border-radius: 10px;
 }
 
 a:link {
@@ -288,8 +286,6 @@ footer {
 
 footer p{
     margin: 0;
-    font-size: 0cm;
-    color: #fff460;
 }
 
 body footer p:nth-child(1) {
